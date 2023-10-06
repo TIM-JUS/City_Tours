@@ -16,9 +16,24 @@ if (isset($_SESSION["user"])) {
     
 </head>
 <body>
-
-<center><h2><b><color="red">INICIA SESION PARA VER LUGARES TURSITICOS DE HUANUCO</b></h1></center>
-
+<div class="container">
+    <center><h2><b><color="red">INICIA SESION PARA VER LUGARES TURSITICOS DE HUANUCO</b></h1></center>
+    
+      <form action="login.php" method="post">
+        <div class="form-group">
+            <b>Ingrese su correo</b>
+            <input type="email" placeholder="Ingrese su correo:" name="email" class="form-control">
+        </div>
+        <div class="form-group">
+            <b>Contraseña</b>
+            <input type="password" placeholder="Ingrese su contraseña:" name="password" class="form-control">
+        </div>
+        <div class="form-btn">
+            <input type="submit" value="Acceso" name="login" class="btn btn-primary">
+        </div>
+      </form>
+     <div><p><i>Clic Aqui-</i> <a href="welcome.blade.php">Registrese Aqui</a></p></div>
+    </div>
 </body>
 </html>
 
