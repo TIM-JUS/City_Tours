@@ -39,7 +39,12 @@ if (isset($_SESSION["user"])) {
             <b>Repita contraseña</b>
                 <input type="password" class="form-control" name="repeat_password" placeholder="Repita contraseña:">
             </div>
-            
+            <div class="form-btn">
+                <input type="submit" class="btn btn-primary" value="Registarse" name="submit">
+                
+            </div>
+        </form>
+        
     </div>
 </body>
 </html>
