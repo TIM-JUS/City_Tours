@@ -44,7 +44,9 @@ if (isset($_SESSION["user"])) {
                 
             </div>
         </form>
-        
+        <div>
+        <div><p><i>Ya registrada</i> <a href="login.php">Inicia Sesion Aqui</a></p></div>
+      </div>
     </div>
 </body>
 </html>
