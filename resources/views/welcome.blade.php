@@ -31,6 +31,10 @@ if (isset($_SESSION["user"])) {
             <b>Correo</b>
                 <input type="emamil" class="form-control" name="email" placeholder="Correo:">
             </div>
+            <div class="form-group">
+            <b>Contraseña</b>
+                <input type="password" class="form-control" name="password" placeholder="Contraseña:">
+            </div>
             
     </div>
 </body>
