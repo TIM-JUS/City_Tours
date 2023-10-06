@@ -18,9 +18,17 @@ if (isset($_SESSION["user"])) {
 </head>
 <body>
 
+    <div class="container">
         
     <center><h2><b>REGISTRES PARA VER LUGARES TURISTICOS DE HUANUCO</b></h1></center>
-    
+        
+        <form action="welcome.blade.php" method="post">
+            <div class="form-group">
+            <b>Nombre</b>
+                <input type="text" class="form-control" name="fullname" placeholder="Nombre:">
+            </div>
+           
+    </div>
 </body>
 </html>
 
