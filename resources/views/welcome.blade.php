@@ -18,6 +18,9 @@ if (isset($_SESSION["user"])) {
 </head>
 <body>
 
+        
+    <center><h2><b>REGISTRES PARA VER LUGARES TURISTICOS DE HUANUCO</b></h1></center>
+    
 </body>
 </html>
 
