@@ -16,9 +16,9 @@ if (isset($_SESSION["user"])) {
     
 </head>
 <body>
-<div class="container">
-    <center><h2><b><color="red">INICIA SESION PARA VER LUGARES TURSITICOS DE HUANUCO</b></h1></center>
     
+    <div class="container">
+    <center><h2><b><color="red">INICIA SESION PARA VER LUGARES TURSITICOS DE HUANUCO</b></h1></center>
         <?php
         if (isset($_POST["login"])) {
            $email = $_POST["email"];
@@ -59,5 +59,25 @@ if (isset($_SESSION["user"])) {
 </body>
 </html>
 
+<style>
+body{
+    padding:50px;
+}
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-group{
+    margin-bottom:30px;
+}
 
+h2{
+    color: red;
+}
+i{
+    color:green;
+}
+</style>
 
