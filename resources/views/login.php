@@ -17,6 +17,8 @@ if (isset($_SESSION["user"])) {
 </head>
 <body>
 
+<center><h2><b><color="red">INICIA SESION PARA VER LUGARES TURSITICOS DE HUANUCO</b></h1></center>
+
 </body>
 </html>
 
